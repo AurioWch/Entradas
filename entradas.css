@@ -1,0 +1,87 @@
+/* entradas.css */
+
+body {
+    background-color: #1a1a2e; /* Fondo oscuro */
+    color: #e94560; /* Color de texto */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.sidebar {
+    width: 200px; /* Ancho del menú */
+    background-color: #0f3460; /* Fondo del menú */
+    position: fixed; /* Fijo a la izquierda */
+    height: 100%; /* Altura completa */
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.content {
+    margin-left: 220px; /* Espacio para el menú */
+    padding: 20px; /* Espaciado interno */
+    max-width: 800px; /* Ancho máximo del contenido */
+    margin-right: auto; /* Centrar el contenido */
+    margin-left: auto; /* Centrar el contenido */
+}
+
+h1, h2, h3 {
+    color: #00adb5; /* Color de encabezados */
+    text-align: center; /* Centrar encabezados */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #00adb5; /* Bordes de la tabla */
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #0f3460; /* Fondo de encabezados */
+}
+
+tr:nth-child(even) {
+    background-color: #16213e; /* Filas pares */
+}
+
+tr:hover {
+    background-color: #00adb5; /* Efecto hover */
+    color: #1a1a2e; /* Color de texto al hacer hover */
+}
+
+form {
+    background-color: #0f3460; /* Fondo del formulario */
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+input[type="number"], input[type="submit"], input[type="text"] {
+    padding: 10px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+input[type="number"], input[type="text"] {
+    width: calc(100% - 22px); /* Ajustar el ancho */
+}
+
+input[type="submit"] {
+    background-color: #e94560; /* Color del botón */
+    color: white;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #00adb5; /* Efecto hover en el botón */
+}
